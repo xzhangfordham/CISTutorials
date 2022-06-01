@@ -3,7 +3,7 @@ This is practice for **markdown**.
 On _github_.
 
 #### Unordered List!
-- list 
+- list  
 * another thing in list
 
 #### Ordered List!
