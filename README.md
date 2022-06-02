@@ -18,4 +18,4 @@ On _github_.
 
 [other file](newFile.md)
  
-[moba](mobaXWindow.md)
+[moba](mobaXtermWindow.md)
