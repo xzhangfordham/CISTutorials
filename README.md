@@ -11,3 +11,7 @@ On _github_.
 1. first
 2. second
 3. third
+
+[Google](https://www.google.com)
+
+![Globe](https://cdn.pixabay.com/photo/2016/04/24/04/53/globe-1348777_1280.png)
