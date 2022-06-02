@@ -9,3 +9,6 @@ Type the following URL to your browser:
   
 On the page (as below), click on the “Download now” button under the Home Edition (Free).  
 ![Download Home Edition](CISWork1.png)
+  
+Then on the following page (shown below), click on the green button displaying the latest version of “MobaXterm Home Edition...” to start downloading the installer file.  If the computer you are using is not your personal computer, the administrator privileges may be required to complete the installation.
+![Download the installer file](CISWork2.png)
