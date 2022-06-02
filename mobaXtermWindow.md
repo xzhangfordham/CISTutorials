@@ -44,7 +44,7 @@ This will open the MobaXterm Setup Wizard. Click **next**.
   
 ![Setup Wizard](CISWork7.png)
   
-  
+    
 First, you will be given the User agreement. Check the box to accept and click **next**. In the following window, you are asked to confirm the destination folder for the installation.  The simplest way is to use the default path shown by the installer, but you could change this if you have a preferred location.  After pressing **next**, you will see the **install** button.  After clicking this button, the program will begin installing.  
   
 ![Installing MobaXTerm](CISWork8.png)  
