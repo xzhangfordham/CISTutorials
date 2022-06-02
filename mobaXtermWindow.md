@@ -16,3 +16,10 @@ Then on the following page (shown below), click on the green button displaying t
 #### Step 3:  
 A zip file named “**MobaXterm_Installer_v21.3**” has been downloaded to your computer. (this name may be slightly different depending on the specified version you downloaded in the previous step) 
 ![Zip file](CISWork3.png)
+  
+Right click on it and **extract** the files from it.  
+![Extract files](CISWork4.png)
+  
+Then, a window will appear with the extraction path and options.  You can change this information if preferred or just continue with the default settings.  After clicking the ok button to confirm, you should see a folder appear as shown below.  
+![Folder appears](CISWork5.png)
+  
