@@ -16,4 +16,4 @@ On _github_.
 
 ![Globe](https://cdn.pixabay.com/photo/2016/04/24/04/53/globe-1348777_1280.png)
 
-[other file ??](newFile.md)
+[other file](newFile.md)
