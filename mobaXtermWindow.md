@@ -18,7 +18,7 @@ Then on the following page (shown below), click on the green button displaying t
   
   
 #### Step 3:  
-A zip file named “**MobaXterm_Installer_v21.3**” has been downloaded to your computer. (this name may be slightly different depending on the specified version you downloaded in the previous step)  
+A zip file named “**MobaXterm_Installer_v21.3**” has been downloaded to your computer. (this name may be slightly different depending on the specified version you downloaded in the previous step).  
   
 ![Zip file](CISWork3.png)
   
