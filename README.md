@@ -18,4 +18,4 @@ On _github_.
 
 [other file](newFile.md)
  
-[install mobaxterm windows](1_Install_MobaXterm_(WINDOWS).md)
+[install mobaxterm windows](file1.md)
