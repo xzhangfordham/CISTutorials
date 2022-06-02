@@ -27,3 +27,25 @@ Right click on it and **extract** the files from it.
 Then, a window will appear with the extraction path and options.  You can change this information if preferred or just continue with the default settings.  After clicking the ok button to confirm, you should see a folder appear as shown below.  
 ![Folder appears](CISWork5.png)
   
+When you open this folder, you should see two files as shown below.  Launch the installer by double clicking “**MobaXterm_installer_21.3**”.  
+You may get a warning which states something similar to  “MobaXterm_installer_21.3” is a Windows executable, do you want to run it?”  If you get such a message, choose “Yes.”  
+![Launch the installer](CISWork6.png)
+  
+  
+#### Step 4:  
+This will open the MobaXterm Setup Wizard. Click **next**.  
+![Setup Wizard](CISWork7.png)
+  
+  
+First, you will be given the User agreement. Check the box to accept and click **next**. In the following window, you are asked to confirm the destination folder for the installation.  The simplest way is to use the default path shown by the installer, but you could change this if you have a preferred location.  After pressing **next**, you will see the **install** button.  After clicking this button, the program will begin installing.  
+![Installing MobaXTerm](CISWork8.png)  
+   
+   
+#### Step 5: Now you can run MobaXterm  
+Congratulations, you have successfully downloaded and installed MobaXterm.  A clickable icon to open MobaXterm should have appeared on your computer.  _We can create a shortcut for this application in your desktop for this application, by_ **right-clicking** on the icon, click "**Send to**” and then select “**Desktop (create shortcut)**"   
+![Create a shortcut](CISWork9.png)  
+  
+You can see that I originally found the application through the “Downloads” folder where I completed the installation, but after making the shortcut it could more conveniently be opened right from the Desktop.
+
+From now on, you can use MobaXterm to log on to a remote server (such as storm.cis.fordham.edu).  Should you have any questions as you start learning the program, the MobaXterm website provides a useful and detailed [documentation](https://mobaxterm.mobatek.net/documentation.html#1) guide.   
+![MobaXTerm homescreen](CISWork10.png)  
