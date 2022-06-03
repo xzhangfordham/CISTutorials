@@ -41,6 +41,7 @@ After successfully logging on, you should see something similar to: [cking74@sto
   
 ![Accessed server](docs/assets/CISWork16.png)  
   
+  
 If you want to log off of the server, you can type "exit" into the terminal window and press **Enter**.
 
 **Congratulations!** You now know how to log on to a server using MobaXterm! 
