@@ -13,7 +13,7 @@ First ensure that you are connected to the internet, then double click on the Mo
   
   
 #### Step 3:   
-Click on the Session button on the top left of the window:  
+Click on the **Session** button on the top left of the window:  
   
 ![Session button](docs/assets/CISWork12.png)
   
@@ -41,6 +41,6 @@ After successfully logging on, you should see something similar to: [cking74@sto
   
 ![Accessed server](docs/assets/CISWork16.png)  
   
-If you want to log off of the server, you can type exit into the terminal window and press **Enter**.
+If you want to log off of the server, you can type "exit" into the terminal window and press **Enter**.
 
 **Congratulations!** You now know how to log on to a server using MobaXterm! 
