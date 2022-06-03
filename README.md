@@ -3,4 +3,5 @@
 
 [practice file](newFile.md)
  
-[mobaXTerm on Windows](installMobaXtermWindows.md)
+[install mobaXTerm on Windows](installMobaXtermWindows.md)  
+[log on to mobaXTerm on Windows](remoteLoginMobaXtermWindows.md)
