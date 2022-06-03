@@ -8,4 +8,3 @@ this is back to normal
 [back to main](README.md)
 
 
-![practice](docs/assets/Picture1.png)
