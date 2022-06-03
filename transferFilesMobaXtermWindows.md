@@ -51,6 +51,7 @@ After this, you can now see the image, “Screenshot (1) has been transferred to
   
 ![]()  
   
+  
 #### Step 5:  
 Documents can also be exchanged between the local and remote machines by simply clicking-and-dragging.  In the following screenshot, you can see the results of me clicking and dragging the file “info.txt” from the remote machine into the Documents folder of my local computer.  Similarly, files can be dragged from the local machine into the remote machine.  
   
