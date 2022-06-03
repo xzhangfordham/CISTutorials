@@ -22,4 +22,8 @@ On _github_.
 
 this is back to normal
 
+code
+
+    The default interactive shell is now zsh.
+    T
 
