@@ -38,3 +38,8 @@ search:
 heading_anchors: true
   # Display the relative url in search results
   # Display the relative url in search results
+
+# Aux links for the upper right navigation
+aux_links:
+  "Link name":
+    - "//github.com/just-the-docs/just-the-docs" #link would go here in the quotes
