@@ -33,3 +33,8 @@ search:
   rel_url: true
   # Enable or disable the search button that appears in the bottom right corner of every page
   button: false
+
+# Enable or disable heading anchors
+heading_anchors: true
+  # Display the relative url in search results
+  # Display the relative url in search results
