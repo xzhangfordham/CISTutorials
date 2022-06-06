@@ -1,10 +1,10 @@
 ## How to: Install MobaXterm (Windows)
 
-#### Step 1: Make sure your computer is connected to the Internet.
+### Step 1: Make sure your computer is connected to the Internet.
 If you are wireless on campus, be sure you are on the Fordham-S wireless network (not Fordham-P).  
   
   
-#### Step 2: Download MobaXterm:
+### Step 2: Download MobaXterm:
 Type the following URL to your browser:  
 [http://mobaxterm.mobatek.net/download.html](http://mobaxterm.mobatek.net/download.html)
   
@@ -17,7 +17,7 @@ Then on the following page (shown below), click on the green button displaying t
 ![Download the installer file](docs/assets/CISWork2.png)
   
   
-#### Step 3:  
+### Step 3:  
 A zip file named “**MobaXterm_Installer_v21.3**” has been downloaded to your computer. (this name may be slightly different depending on the specified version you downloaded in the previous step).  
   
 ![Zip file](docs/assets/CISWork3.png)
@@ -35,8 +35,8 @@ You may get a warning which states something similar to  “MobaXterm_installer_
   
 ![Launch the installer](docs/assets/CISWork6.png)
   
-  
-#### Step 4:  
+   
+### Step 4:  
 This will open the MobaXterm Setup Wizard. Click **next**.  
   
 ![Setup Wizard](docs/assets/CISWork7.png)
@@ -46,7 +46,7 @@ First, you will be given the User agreement. Check the box to accept and click *
 ![Installing MobaXTerm](docs/assets/CISWork8.png)  
    
    
-#### Step 5: Now you can run MobaXterm  
+### Step 5: Now you can run MobaXterm  
 Congratulations, you have successfully downloaded and installed MobaXterm.  A clickable icon to open MobaXterm should have appeared on your computer.  _We can create a shortcut for this application in your desktop for this application, by_ **right-clicking** on the icon, click "**Send to**” and then select “**Desktop (create shortcut)**"   
   
 ![Create a shortcut](docs/assets/CISWork9.png)  
