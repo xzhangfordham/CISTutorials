@@ -2,7 +2,4 @@ theme: jekyll-theme-primer
 show_sidebar: true
 title: CIS Tutorials
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: "hom"}
-  - {file: "README.md", title: "home"}
 
