@@ -1,6 +1,6 @@
-## How to: transfer files to/from remote machine (MobaXterm)
+# How to: transfer files to/from remote machine (MobaXterm)
 
-#### Step 1:  
+### Step 1:  
 Make sure you are connected to the internet, then launch the MobaXterm application and log on to the remote machine. If you are unsure about anything mentioned in this step, please reference the previous tutorials, [How to: Install MobaXterm](installMobaXtermWindows.md) and/or [How to: Remote Login using MobaXterm](remoteLoginMobaXtermWindows.md)  
   
 The following screenshot shows my username “cking74” currently logged on to the storm servers. You should see something similar before continuing on to the next step.   
@@ -8,7 +8,7 @@ The following screenshot shows my username “cking74” currently logged on to 
 ![Logged in screen](docs/assets/CISWork17.png)  
   
   
-#### Step 2:  
+### Step 2:  
 Using MobaXterm, you can easily view and access the remote machine using the window to the left of the terminal. You can see its current location displayed in the top bar and navigate through the machine by clicking on the folders as shown in the screenshot below.  
   
 ![Navigate the remote machine](docs/assets/CISWork18.png) 
@@ -24,7 +24,7 @@ The following example shows me navigating to **/demo/text_files** via the comman
 ![Navigate to /demo/text_files](docs/assets/CISWork20.png)  
   
   
-#### Step 3:  
+### Step 3:  
 To download a file on to your local machine, first locate and select the file on the remote machine that you wish to download using one of the methods explained in the above step. In this example I will be downloading the folder “data” from the location in the remote machine which I navigated to in the previous step. (To download a file or folder is the same process.)   
   
 ![Download the folder “data” from the remote machine](docs/assets/CISWork21.png)  
@@ -38,7 +38,7 @@ Then you should see the files appear on your local computer. We can now see the 
 ![“data” folder in the “Documents” folder](docs/assets/CISWork23.png)  
   
   
-#### Step 4:  
+### Step 4:  
 To upload a file to the remote machine from your local machine is a very similar process.  In this example, I will be uploading an image from the folder “Screenshots” from my local computer to the remote machine.  
   
 ![“Screenshots” folder on local computer](docs/assets/CISWork24.png)  
@@ -52,7 +52,7 @@ After this, you can now see the image, “Screenshot (1) has been transferred to
 ![Screenshot transferred to the remote machine](docs/assets/CISWork26.png)  
   
   
-#### Step 5:  
+### Step 5:  
 Documents can also be exchanged between the local and remote machines by simply clicking-and-dragging.  In the following screenshot, you can see the results of me clicking and dragging the file “info.txt” from the remote machine into the Documents folder of my local computer.  Similarly, files can be dragged from the local machine into the remote machine.  
   
 ![Document clicked and dragged to local computer](docs/assets/CISWork27.png)  
