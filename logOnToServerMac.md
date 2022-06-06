@@ -8,4 +8,4 @@ It is also important to remember on which server your account exists in order to
 #### Step 2:  
 Next, ensure that your computer is connected to the internet and launch Terminal. Terminal comes pre-installed on Mac computers. It can easily be located by clicking on Spotlight, typing “terminal” into the search bar and double clicking on the top result. 
   
-![Locate terminal](CISWork28.png)
+![Locate terminal](docs/assets/CISWork28.png)
