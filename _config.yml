@@ -5,3 +5,8 @@ title: CIS Tutorials #title of the page
 description: Enter description here
 ##baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog #need to input
 ##url: "https://just-the-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com #need to input
+
+permalink: pretty
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
+, "docs/tests/"
+]
