@@ -1,3 +1,8 @@
+---
+layout: default
+title: Remote login using MobaXterm (Windows)
+nav_order: 3
+---
 # How to: Remote login using MobaXterm (Windows)
 
 ### Step 1:  
