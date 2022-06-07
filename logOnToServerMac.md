@@ -1,3 +1,9 @@
+---
+layout: default
+title: Remote login from MAC
+nav_order: 1
+---
+
 # How to: remote login from MAC  
   
 ### Step 1:  
