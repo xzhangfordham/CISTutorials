@@ -1,3 +1,8 @@
+---
+layout: default
+title: Transfer files using MobaXterm
+nav_order: 4
+---
 # How to: transfer files to/from remote machine (MobaXterm)
 
 ### Step 1:  
