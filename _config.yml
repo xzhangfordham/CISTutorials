@@ -3,7 +3,7 @@ remote_theme: just-the-docs/just-the-docs
 # Site settings
 title: CIS Tutorials #title of the page
 description: Enter description here
-baseurl: "/rubyiannone6" # the subpath of your site, e.g. /blog #needs to change for new repository
+baseurl: "/tutorials" # the subpath of your site, e.g. /blog #needs to change for new repository
 ##url: "https://just-the-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com #need to input
 
 permalink: pretty
