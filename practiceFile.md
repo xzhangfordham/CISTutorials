@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Child Page
-parent: Install MobaXTerm (Windows)
+parent: Install MobaXterm (Windows)
+
 ---
 
 # child page
