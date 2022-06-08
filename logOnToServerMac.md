@@ -15,15 +15,14 @@ It is also important to remember on which server your account exists in order to
 ### Step 2:  
 Next, ensure that your computer is connected to the internet and launch Terminal. Terminal comes pre-installed on Mac computers. It can easily be located by clicking on Spotlight, typing “terminal” into the search bar and double clicking on the top result. 
   
-
-<img src="/docs/assets/CISWork28.png" alt="Launch terminal" width="600" class="center">
+<img src="/docs/assets/CISWork28.png" alt="Launch terminal" width="600" class="center">  
   
 If the application does not immediately show up in the Spotlight window, you may need to adjust your search results for Spotlight. This can be done by opening Finder, navigating to the following location and checking the “Applications” box.  
   
 **Applications >> System Preferences >> Spotlight >> Search Results**  
   
-![Check application box](docs/assets/CISWork29.png)     
-
+<img src="/docs/assets/CISWork29.png" alt="Check application box" width="600" class="center">  
+  
 Additionally, Terminal can be found in its original location:  **Applications >> Utilities**  
 
 Once you’ve launched Terminal, a window similar to the following will pop up. This is often referred to as the _command-line_ and we can execute commands on our computer by typing them in here.  
