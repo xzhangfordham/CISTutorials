@@ -2,6 +2,7 @@
 layout: default
 title: Remote login using MobaXterm (Windows)
 nav_order: 3
+parent: Install MobaXterm (Windows)
 ---
 # How to: Remote login using MobaXterm (Windows)
 
