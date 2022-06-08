@@ -26,9 +26,8 @@ If the application does not immediately show up in the Spotlight window, you may
 Additionally, Terminal can be found in its original location:  **Applications >> Utilities**  
 
 Once you’ve launched Terminal, a window similar to the following will pop up. This is often referred to as the _command-line_ and we can execute commands on our computer by typing them in here.  
-
-![Terminal command line](docs/assets/CISWork30.png)  
   
+<img src="/docs/assets/CISWork30.png" alt="Terminal command line" width="600" class="center">    
   
 ### Step 3:  
 Next, we will access the remote servers using the **ssh** (secure shell) command. This command should be executed along with [your user name] @ [your remote machine] as demonstrated in the example below. Note that if your account is on the storm servers, your remote machine is **storm.cis.fordham.edu** and if on the erdos servers, it is **erdos.dsm.fordham.edu**.  
@@ -37,7 +36,7 @@ Proceed by typing the following command into the terminal (with your own account
 
      ssh cking74@storm.cis.fordham.edu
   
-![Enter command](docs/assets/CISWork31.png)  
+<img src="/docs/assets/CISWork31.png" alt="Enter command" width="600" class="center">  
   
 Note that if it is your first time logging on, you may be prompted with a similar message for verification:  
 
@@ -51,8 +50,8 @@ If so, type yes and press **enter**. This is just confirming that you intend to 
   
 ### Step 4:   
 After executing the previous command, you should be prompted for your password. Type in your password- “mypass” and press **Enter**. (Note that as you type your password, it will not be displayed and the cursor will not move forward for security reasons.)  
-  
-![Enter password](docs/assets/CISWork32.png)  
+    
+<img src="/docs/assets/CISWork32.png" alt="Enter password" width="600" class="center">  
   
 If it is your first time logging in, it is possible that the system will require you to change your password at this point. If it does, simply follow the prompts as they are given to do so. You can change your password again at any time later on using the **passwd** command, which is covered in the tutorial “Introduction to Linux environment”(NEED TO ADD LINK).   
   
@@ -64,7 +63,7 @@ Once you have successfully logged in, you should see something similar to
   
 appear at the start of the line in the terminal. This indicates that you have successfully logged on to the servers.  
   
-![Logged on to server](docs/assets/CISWork33.png)  
+<img src="/docs/assets/CISWork33.png" alt="Logged on to server" width="600" class="center">  
   
 **Congratulations!** You now know how to use Terminal and log on remotely!  
   
