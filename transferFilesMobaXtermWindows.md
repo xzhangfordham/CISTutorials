@@ -2,6 +2,7 @@
 layout: default
 title: Transfer files using MobaXterm
 nav_order: 4
+parent: Install MobaXterm (Windows)
 ---
 # How to: transfer files to/from remote machine (MobaXterm)
 
