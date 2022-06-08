@@ -14,8 +14,8 @@ It is also important to remember on which server your account exists in order to
   
 ### Step 2:  
 Next, ensure that your computer is connected to the internet and launch Terminal. Terminal comes pre-installed on Mac computers. It can easily be located by clicking on Spotlight, typing “terminal” into the search bar and double clicking on the top result. 
-
-<img src="docs/assets/CISWork28.png" width="300">
+  
+<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" width="300">
   
 If the application does not immediately show up in the Spotlight window, you may need to adjust your search results for Spotlight. This can be done by opening Finder, navigating to the following location and checking the “Applications” box.  
   
