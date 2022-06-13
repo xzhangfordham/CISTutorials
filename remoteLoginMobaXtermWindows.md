@@ -2,6 +2,7 @@
 layout: default
 title: Remote login using MobaXterm (Windows)
 parent: Windows tutorials
+
 ---
 # How to: Remote login using MobaXterm (Windows)
 
