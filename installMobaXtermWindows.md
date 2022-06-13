@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Install MobaXterm (Windows)
-nav_order: 2
+nav_order: 3
 has_children: true
 ---
 # How to: Install MobaXterm (Windows)
