@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Remote login using MobaXterm (Windows)
+nav_order: 2
 parent: Windows tutorials
 ---
 
