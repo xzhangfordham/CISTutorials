@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Transfer files using scp (Mac)
+nav_order: 2
 parent: Mac tutorials
 
 ---
