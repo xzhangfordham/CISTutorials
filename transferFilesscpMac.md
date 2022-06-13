@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Transfer files using scp (Mac)
-parent: Windows tutorials
+parent: Mac tutorials
 ---
 
 # How to: Transfer files from/to remote machine (using scp on Mac) 
