@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Transfer files using MobaXterm
+nav_order: 3
 parent: Windows tutorials
 ---
 
