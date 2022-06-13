@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Install MobaXterm (Windows)
-nav_order: 3
-has_children: true
+nav_order: 1
+parent: Windows tutorials
 ---
+
 # How to: Install MobaXterm (Windows)
 
 ### Step 1: Make sure your computer is connected to the Internet.
