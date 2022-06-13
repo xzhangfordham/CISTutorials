@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Transfer files using MobaXterm
-parent: Install MobaXterm (Windows)
+parent: Windows tutorials
 ---
+
 # How to: transfer files to/from remote machine (MobaXterm)
 
 ### Step 1:  
