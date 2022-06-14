@@ -28,4 +28,32 @@ To list all files in your home directory including those whose names begin with 
   
 ## 1.2 Making Directories
 ### mkdir (make directory)  
-We will now make a subdirectory in your home directory to hold the files you will be creating and using in the course of this tutorial. To make a subdirectory called cs1 in your current working directory type
+We will now make a subdirectory in your home directory to hold the files you will be creating and using in the course of this tutorial. To make a subdirectory called cs1 in your current working directory type  
+% **mkdir cs1**  
+  
+To see the directory you have just created, type  
+% **ls**  
+  
+  
+## 1.3 Changing to a different directory
+### cd (change directory)  
+The command **cd {directory}** means "change the current working directory to 'directory'. The current working directory may be thought of as the directory you are in, i.e. your current position in the file-system tree.  
+  
+To change to the directory you have just made, type  
+% **cd cs1**  
+  
+Type **ls** to see the contents (which should be empty).  
+  
+### Exercise 1a  
+Make another directory inside the **cs1** directory called **backups**  
+  
+  
+## 1.4 The directories . and ..  
+Still in the **cs1** directory, type  
+% **ls -a**  
+  
+As you can see, in the **cs1** directory (and in all other directories), there are two special directories called "." and ".."  
+  
+In UNIX, "." means the current directory, so typing  
+% **cd .** (NOTE: there is a space between cd and the dot)  
+means stay where you are (the cs1 directory). This may not seem very useful at first, but using "." as the name of the current directory will save a lot of typing, as we shall see later in the tutorial.
