@@ -7,7 +7,7 @@ parent: Linux tutorials
 
 # Unix Tutorial One
   
-## 1.1 Listing files and directories  
+## 1.1 Listing files and directories
 ### ls (list)  
 When you first login, your current working directory is your home directory. Your home directory has the same name as your user-name, for example, **ee91ab**, and it is where your personal files and subdirectories are saved.  
   
@@ -26,6 +26,6 @@ To list all files in your home directory including those whose names begin with 
 **ls** is an example of a command which can take options: **-a** is an example of an option. The options change the behaviour of the command. There are online manual pages that tell you which options a particular command can take, and how each option modifies the behaviour of the command. (See later in this tutorial)  
   
   
-## 1.2 Making Directories  
+## 1.2 Making Directories
 ### mkdir (make directory)  
 We will now make a subdirectory in your home directory to hold the files you will be creating and using in the course of this tutorial. To make a subdirectory called cs1 in your current working directory type
