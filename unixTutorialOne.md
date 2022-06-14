@@ -37,7 +37,7 @@ To see the directory you have just created, type
   
 ## 1.3 Changing to a different directory
 ### cd (change directory)  
-The command **cd {directory}** means "change the current working directory to 'directory'. The current working directory may be thought of as the directory you are in, i.e. your current position in the file-system tree.  
+The command **cd _directory_** means "change the current working directory to 'directory'. The current working directory may be thought of as the directory you are in, i.e. your current position in the file-system tree.  
   
 To change to the directory you have just made, type  
 % **cd cs1**  
@@ -119,4 +119,14 @@ would list?
   
 What do you think   
 % **ls ~/..**  
-would list?
+would list?  
+  
+## Summary  
+* **ls** : list files and directories  
+* **ls -a** : list all files and directories  
+* **mkdir** : make a directory  
+* **cd _directory_** : change to named directory  
+* **cd** : change to home-directory  
+* **cd** ~ : change to home-directory  
+* **cd ..** : change to parent directory  
+* **pwd** : display the path of the current directory  
