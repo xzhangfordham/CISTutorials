@@ -111,15 +111,12 @@ The reason is, **backups** is not in your current working directory. To use a co
 ### ~ (your home directory)  
 Home directories can also be referred to by the tilde ~ character. It can be used to specify paths starting at your home directory. So typing  
 % **ls ~/cs1**  
-  
 will list the contents of your cs1 directory, no matter where you currently are in the file system.  
   
 What do you think  
 % **ls ~**  
-  
 would list?  
   
 What do you think   
 % **ls ~/..**  
-  
 would list?
