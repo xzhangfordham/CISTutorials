@@ -55,5 +55,38 @@ Still in the **cs1** directory, type
 As you can see, in the **cs1** directory (and in all other directories), there are two special directories called "." and ".."  
   
 In UNIX, "." means the current directory, so typing  
-% **cd .** (NOTE: there is a space between cd and the dot)  
-means stay where you are (the cs1 directory). This may not seem very useful at first, but using "." as the name of the current directory will save a lot of typing, as we shall see later in the tutorial.
+% **cd .** (NOTE: there is a space between **cd** and the dot)  
+  
+means stay where you are (the cs1 directory). This may not seem very useful at first, but using "." as the name of the current directory will save a lot of typing, as we shall see later in the tutorial.  
+  
+".." means the parent of the current directory, so typing  
+% **cd ..**  
+  
+will take you one directory up the hierarchy (back to your home directory). Try it now.  
+  
+Note: typing **cd** with no argument always returns you to your home directory. This is very useful if you are lost in the file system.  
+  
+  
+## 1.5 Pathnames
+### pwd (print working directory)  
+Pathnames enable you to work out where you are in relation to the whole file-system. For example, to find out the absolute pathname of your home-directory, type cd to get back to your home-directory and then type  
+% **pwd**  
+
+The full pathname will look something like this -  
+  
+**/home/students/ffeng/cs1**  
+
+which means that ffeng (suppose your acount id is ffeng) is in the directory students (the group directory),which is located under directory home.  
+  
+Note:  
+**/home/students/ffeng/cs1**  
+  
+can be shortened to  
+  
+**~ffeng/cs1**  
+  
+i.e., the cs1 subdirectory located under the home directory of user ffeng.
+   
+### Exercise 1b  
+Use the commands **ls**, **pwd** and **cd** to explore the file system.  
+(Remember, if you get lost, type **cd** by itself to return to your home-directory)
