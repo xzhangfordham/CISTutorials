@@ -80,7 +80,7 @@ The command **less** writes the contents of a file onto the screen a page at a t
   
 Press the space-bar if you want to see another page, type **q** if you want to quit reading. As you can see, less is used in preference to cat for long files.  
   
-### _head_
+### head
 The **head** command writes the first ten lines of a file to the screen.  
   
 First clear the screen then type  
