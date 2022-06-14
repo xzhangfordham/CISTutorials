@@ -80,7 +80,7 @@ The command **less** writes the contents of a file onto the screen a page at a t
   
 Press the space-bar if you want to see another page, type **q** if you want to quit reading. As you can see, less is used in preference to cat for long files.  
   
-### head  
+### _head_
 The **head** command writes the first ten lines of a file to the screen.  
   
 First clear the screen then type  
@@ -143,3 +143,15 @@ A handy little utility is the **wc** command, short for word count. To do a word
   
 To find out how many lines the file has, type  
 % **wc -l nytimes.txt**  
+  
+## Summary
+* **cp _file1 file2_** : copy file1 and call it file2  
+* **mv _file1 file2_** : move or rename file1 to file2  
+* **rm _file_** : remove a file  
+* **rmdir _directory_** : remove a directory  
+* **cat _file_** : display a file  
+* **more _file_** : display a file a page at a time  
+* **head _file_** : display the first few lines of a file  
+* **tail _file_** : display the last few lines of a file  
+* **grep 'keyword' _file_** : search a file for keywords  
+* **wc _file_** : count number of lines/words/characters in file  
