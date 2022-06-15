@@ -84,7 +84,7 @@ Pathnames enable you to work out where you are in relation to the whole file-sys
 The full pathname will look something like this:  
 **/home/students/ffeng/cs1**  
 
-which means that ffeng (suppose your acount id is ffeng) is in the directory students (the group directory),which is located under directory home.  
+which means that ffeng (suppose your acount id is ffeng) is in the directory students (the group directory), which is located under directory home.  
   
 Note:  
 **/home/students/ffeng/cs1**  
