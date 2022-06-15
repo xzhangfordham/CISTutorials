@@ -28,7 +28,7 @@ It may be helpful to know the **cd** (change directory), **pwd** (print working 
   
 Here, I begin in the directory of my account on the remote machine /home/students/cking74 and navigate to a folder I previously created named “text_files” which holds the file I wish to open with emacs, “info.txt”.  
   
-<img src="/docs/assets/CISWork45.png" alt="Navigate to folder" width="600">  
+<img src="/docs/assets/CISWork45.png" alt="Navigate to folder">  
   
 Of course if you already know the full location of the file and don’t want to go through the navigation steps, you could just prepend it to the file name.  This means I could reference the file from a different location on the machine as “**/home/students/cking74/demo/text_files/info.txt**” rather than just “**info.txt**”  in the following steps.  
   
@@ -58,7 +58,7 @@ And then the document can simply be **closed** with **(ctrl-x) (ctrl-c)** as pre
   
 If you write to the document and don’t wish to save change the changes, just close it with **(ctrl-x) (ctrl-c)**.  Emacs may prompt you with a similar message to the one shown below to confirm your choice before discarding the changes.  
   
-<img src="/docs/assets/CISWork49.png" alt="Confirm choice" width="600">  
+<img src="/docs/assets/CISWork49.png" alt="Confirm choice">  
   
   
 ### Step 6:  
