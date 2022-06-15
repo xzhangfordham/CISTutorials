@@ -81,8 +81,7 @@ Pathnames enable you to work out where you are in relation to the whole file-sys
 
     % pwd  
 
-The full pathname will look something like this -  
-  
+The full pathname will look something like this:  
 **/home/students/ffeng/cs1**  
 
 which means that ffeng (suppose your acount id is ffeng) is in the directory students (the group directory),which is located under directory home.  
@@ -90,8 +89,7 @@ which means that ffeng (suppose your acount id is ffeng) is in the directory stu
 Note:  
 **/home/students/ffeng/cs1**  
   
-can be shortened to  
-  
+can be shortened to:  
 **~ffeng/cs1**  
   
 i.e., the cs1 subdirectory located under the home directory of user ffeng.
@@ -124,16 +122,19 @@ The reason is, **backups** is not in your current working directory. To use a co
 Home directories can also be referred to by the tilde ~ character. It can be used to specify paths starting at your home directory. So typing  
 
     % ls ~/cs1  
+  
 will list the contents of your cs1 directory, no matter where you currently are in the file system.  
   
 What do you think  
 
     % ls ~  
+  
 would list?  
   
 What do you think   
 
     % ls ~/..  
+  
 would list?  
   
 ## Summary  
