@@ -39,77 +39,89 @@ The example below shows me adding some text to the file created in the previous 
   
 The visual mode allows you to select, cut, copy and paste.  It is enabled by pressing v.  While active, –VISUAL—will be displayed at the bottom of the terminal and the following commands can be typed directly into the terminal:  
   
-* v	(enable/select)
-* y	(copy selected text)
-* x	(cut selected text)
-* p	(paste cut/copied text)
-
-
-The example below shows text being highlighted in the visual mode. 
+* v : 	(enable/select)
+* y : 	(copy selected text)
+* x : 	(cut selected text)
+* p : 	(paste cut/copied text)
+  
+The example below shows text being highlighted in the visual mode.  
   
 <>
   
-To exit either of these modes and return to command mode, press esc.  We’ll proceed to saving or discarding the changes in the following steps. 
+To exit either of these modes and return to command mode, press **esc**.  We’ll proceed to saving or discarding the changes in the following steps.  
+  
+  
+### Step 3:  
+To save a file, press esc, type the following command, then press enter:  
 
-Step 3:  To save a file, press esc, type the following command, then press enter:
-:w	
-
-In the example shown below, I save the text inserted into “hello.cpp” in the previous step.  You can see the word “written” in the bottom left corner, indicating that it has been saved at the location shown. 
+    :w	
+  
+In the example shown below, I save the text inserted into “hello.cpp” in the previous step.  You can see the word “written” in the bottom left corner, indicating that it has been saved at the location shown.  
   
 <>
   
-With a quick check, we can confirm that the file now exists in the location specified. 
+With a quick check, we can confirm that the file now exists in the location specified.  
 
 <>
   
-Step 4:  To close a file, press esc, type the following command, then press enter:
-:q 
+### Step 4:  
+To close a file, press esc, type the following command, then press enter:  
 
+    :q 
+  
 Note that if you edited the file and have unsaved changes on it that you wish to discard, you will likely get an error if you try to run the above, and need to use the following instead:   
-	:q!
 
-<>
+    :q!
   
-You can also combine the save and close commands into a single step with:
-:wq 
-
-
-Step 5: To open an already existing file, simply type vi followed by the location and name of the file and press enter.  Here is the command I will run to open the file “info.txt” which already exists at the specified location:
-vi /home/students/cking74/demo/text_files/info.txt
-
-The contents of the file will now be displayed in the terminal window and can be scrolled through with the arrow keys.  In this example, we can see that “info.txt” contains a paragraph about vi and its location in the bottom left corner.  Notice that the word [New] is not present, as was when we created a file in Step 1.
+<>  
   
-<>
+You can also combine the save and close commands into a single step with:  
+
+    :wq 
   
-When attempting to open a file with vi, be sure to double check that the name of the file and path are correct.  As shown in step 1, vi will attempt to create new files and directories for ones that don’t already exist if requested, which may be confusing at first. 
-
-In the example below, I intended to open the same file “info.txt” with the following command:
-vi /home/students/cking74/dimo/text_files/info.txt
-
-but as you can see, I accidentally misspelled “demo.”  vi attempted to create a new folder named ‘dimo’ when I hit enter (shown below).  Since I realized the mistake, I just closed the file without saving it (as discussed in step 4).
-
-<>
   
-Step 6: As aforementioned, vi automatically opens in command mode.  While in this mode, you can speed up navigating through the document by using these commands rather than arrow keys. (Try them out!):
+### Step 5:  
+To **open an already existing file**, simply type vi followed by the location and name of the file and press **enter**.  Here is the command I will run to open the file “info.txt” which already exists at the specified location:  
 
-	j	(down one line)
-	k	(up one line)
-	0	(beginning of current line)
-	$	(end of current line)
-1G	(first line of file)
-nG	(nth line of file)
-G	(last line of file)
-
-
-
-Step 7: For more information and usage tips while using vi, you can type the following into terminal and press enter:
-	:help
-
-This will display the following document, which can be read and closed by typing :q and pressing enter. 
+    vi /home/students/cking74/demo/text_files/info.txt
+  
+The contents of the file will now be displayed in the terminal window and can be scrolled through with the arrow keys.  In this example, we can see that “info.txt” contains a paragraph about vi and its location in the bottom left corner.  Notice that the word [New] is not present, as was when we created a file in Step 1.  
   
 <>
   
-More information about vi can also be found here:
-https://www.tutorialspoint.com/unix/unix-vi-editor.htm
+When attempting to open a file with vi, be sure to double check that the name of the file and path are correct.  As shown in step 1, vi will attempt to create new files and directories for ones that don’t already exist if requested, which may be confusing at first.  
 
-Congratulations! You now know the basics of vi and how to create, view and edit documents using it! 
+In the example below, I intended to open the same file “info.txt” with the following command:  
+
+    vi /home/students/cking74/dimo/text_files/info.txt
+
+but as you can see, I accidentally misspelled “demo.”  vi attempted to create a new folder named ‘dimo’ when I hit **enter** (shown below).  Since I realized the mistake, I just closed the file without saving it (as discussed in step 4).  
+  
+<>  
+  
+  
+### Step 6: 
+As aforementioned, vi automatically opens in **command** mode.  While in this mode, you can speed up navigating through the document by using these commands rather than arrow keys. (Try them out!):  
+  
+* j : 	(down one line)
+* k : 	(up one line)
+* 0 : 	(beginning of current line)
+* $ : 	(end of current line)
+* 1G : 	(first line of file)
+* nG : 	(nth line of file)
+* G : 	(last line of file)
+  
+  
+### Step 7:  
+For more information and usage tips while using vi, you can type the following into terminal and press **enter**:  
+
+    :help
+  
+This will display the following document, which can be read and closed by typing :q and pressing **enter**.  
+  
+<>  
+  
+More information about vi can also be found here:  
+[vi Editor Tutorial](https://www.tutorialspoint.com/unix/unix-vi-editor.htm)  
+  
+**Congratulations!** You now know the basics of vi and how to create, view and edit documents using it! 
