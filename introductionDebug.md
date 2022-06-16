@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Submit Programs to Autograder
-nav_order: 8
+title: Intro to Debug
+nav_order: 9
 ---
 
 # CISC2000: Computer Science II Intro to Debug
