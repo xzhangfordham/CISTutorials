@@ -54,7 +54,7 @@ After executing the previous command, you should be prompted for your password. 
     
 <img src="/docs/assets/CISWork32.png" alt="Enter password">  
   
-If it is your first time logging in, it is possible that the system will require you to change your password at this point. If it does, simply follow the prompts as they are given to do so. You can change your password again at any time later on using the **passwd** command, which is covered in the tutorial “Introduction to Linux environment”(NEED TO ADD LINK).   
+If it is your first time logging in, it is possible that the system will require you to change your password at this point. If it does, simply follow the prompts as they are given to do so. You can change your password again at any time later on using the **passwd** command, which is covered in the tutorial [“Introduction to Linux environment”](introductionLinux.md).   
   
   
 ### Step 5:  
