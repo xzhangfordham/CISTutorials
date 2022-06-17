@@ -18,7 +18,7 @@ Ensure you are connected to the Internet and locate the username and password gi
 It may be helpful to know the **cd** (change directory), **pwd** (print working directory) and **ls** (list contents) commands for the following steps and to be familiar with the concept of absolute and relative paths. Here a quick guide :  
 [Linux Navigation and File Management](https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management)  
   
-These are also covered in the tutorial “Introduction to Linux environment”(NEED LINK) and you can also get quick information/usage of any command to display in the terminal window with the info command. Here, I typed the following in the terminal and pressed **Enter** to show the command “ls” (which could be replaced by any other command name.)  
+These are also covered in the tutorial [“Introduction to Linux environment”](introductionLinux.md) and you can also get quick information/usage of any command to display in the terminal window with the info command. Here, I typed the following in the terminal and pressed **Enter** to show the command “ls” (which could be replaced by any other command name.)  
 
     info ls  
   
