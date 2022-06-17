@@ -84,11 +84,11 @@ Please watch the insturctor demo the usage of debugger gdb, and then carry out t
     * Delete breakpoints: to delete a breakpoint that is set earlier
       * delete breakpoints 2 ## delete breakpoint number 2
     * help stack: list commands related to the calling stack
-      1. where/backtrace: to view the current calling stack content
-      2. up and down: to go to the previous and next frame in the caling stack
-      3. frame: to go to a certain stack frame
+      * where/backtrace: to view the current calling stack content
+      * up and down: to go to the previous and next frame in the caling stack
+      * frame: to go to a certain stack frame
     * help data: list commands related to examine or modify data
-      1. print: to print the values of a varaible or expression.
+      * print: to print the values of a varaible or expression.
       For example, you can find out the address of variable n:
           * print &n
-      2. set: to assign a value to a variable
+      * set: to assign a value to a variable
