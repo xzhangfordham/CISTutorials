@@ -10,7 +10,7 @@ parent: Windows tutorials
 ### Step 1:  
 If you haven’t installed MobaXterm, please follow the [How to: install MobaXterm](installMobaXTermWindows.md) to install this program on your computer.  You will need an account to access the remote server (**storm.cis.fordham.edu** for RH classes, **erdos.dsm.fordham.edu** for LC classes). Please speak with your instructor if you don’t have one, or have forgotten your account ID or password.   
   
-In the following examples, I be using my account information, "cking74@storm.cis.fordham.edu" and the password “mypass”. Remember that when you see this, you should replace it with your own details. 
+In the following examples, we will be using the account username, "cking74@storm.cis.fordham.edu" and the password, “mypass”. Remember that when you see this, you should replace it with your own details. 
   
 ### Step 2:  
 First ensure that you are connected to the internet, then double click on the MobaXterm icon to start the program. The following window will appear:  
@@ -23,8 +23,8 @@ Click on the **Session** button on the top left of the window:
 <img src="/docs/assets/CISWork12.png" alt="Session button" width="600">  
   
 ### Step 4:  
-(In the new window), first click the **SSH** button (top left), then in the **Remote Host** text box, enter the host name of the remote server to which you want to connect. (In the example shown, I enter **storm.cis.fordham.edu** since my account is located on the storm server.)   
-Next, check the **Specify username** box and enter your username. (Here I enter mine, cking74.) Click **ok**.  
+(In the new window), first click the **SSH** button (top left), then in the **Remote Host** text box, enter the host name of the remote server to which you want to connect. (In the example shown, we enter **storm.cis.fordham.edu** since this account is located on the storm server.)   
+Next, check the **Specify username** box and enter your username. (Here we enter cking74.) Click **ok**.  
   
 <img src="/docs/assets/CISWork13.png" alt="Enter login" width="600">  
   
