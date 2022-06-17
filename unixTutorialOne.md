@@ -146,3 +146,9 @@ would list?
 * **cd** ~ : change to home-directory  
 * **cd ..** : change to parent directory  
 * **pwd** : display the path of the current directory  
+  
+  
+--------------------------------------------
+M.Stonebank@surrey.ac.uk
+© 9th October 2000
+Adapted by Xiaolan Zhang based on http://www.math.montana.edu/help/software/unixtut/unix1.html
