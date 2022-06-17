@@ -25,7 +25,7 @@ Then on the following page (shown below), click on the green button displaying t
   
   
 ### Step 3:  
-A zip file named “**MobaXterm_Installer_v21.3**” has been downloaded to your computer. (this name may be slightly different depending on the specified version you downloaded in the previous step).  
+A zip file named “**MobaXterm_Installer_v21.3**” has been downloaded to your computer. (This name may be slightly different depending on the specified version you downloaded in the previous step).  
   
 <img src="/docs/assets/CISWork3.png" alt="Zip file" width="600">  
   
@@ -58,7 +58,7 @@ Congratulations, you have successfully downloaded and installed MobaXterm.  A cl
   
 <img src="/docs/assets/CISWork9.png" alt="Create a shortcut" width="600">  
    
-You can see that I originally found the application through the “Downloads” folder where I completed the installation, but after making the shortcut it could more conveniently be opened right from the Desktop.  
+You can see that the application was originally found through the “Downloads” folder where the installation was completed, but after making the shortcut it could more conveniently be opened right from the Desktop.  
 From now on, you can use MobaXterm to log on to a remote server (such as storm.cis.fordham.edu).  Should you have any questions as you start learning the program, the MobaXterm website provides a useful and detailed [documentation](https://mobaxterm.mobatek.net/documentation.html#1) guide.   
   
 <img src="/docs/assets/CISWork10.png" alt="MobaXTerm homescreen" width="600">  
