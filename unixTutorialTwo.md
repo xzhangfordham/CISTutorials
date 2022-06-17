@@ -173,3 +173,9 @@ To find out how many lines the file has, type
 * **tail _file_** : display the last few lines of a file  
 * **grep 'keyword' _file_** : search a file for keywords  
 * **wc _file_** : count number of lines/words/characters in file  
+  
+  
+--------------------------------------------
+M.Stonebank@surrey.ac.uk  
+© 9th October 2000  
+Adapted by Xiaolan Zhang based on http://www.math.montana.edu/help/software/unixtut/unix1.html
