@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Install MobaXterm (Windows)
+title: Install MobaXterm
 nav_order: 1
 parent: Windows tutorials
 ---
