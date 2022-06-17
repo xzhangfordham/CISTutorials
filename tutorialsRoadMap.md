@@ -22,8 +22,8 @@ In CISC1600 and CISC2000 classes, you are provided accounts on the CIS Dept’s 
 | -------------------------------------------------------------------- | -------------------------------------- |
 | Install MobaXterm (skip this if you are using Windows lab computers) | Mac comes with terminal application    |
 | Log on to server using MobaXterm                                     | Log on to server using terminal (mac)  |
-| Introduction to Linux Commands                                                                                |
-| Introduction to Emacs or Introduction to vi                                                                   |
+| Introduction to Linux Commands                                                                                ||
+| Introduction to Emacs or Introduction to vi                                                                   ||
 | Transfer files using MobaXterm                                       | Transfer files using scp               |
 | Submit programs to Autograder                                                                                 |
   
