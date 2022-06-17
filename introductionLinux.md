@@ -28,5 +28,5 @@ If you’re unsure about how to choose an appropriate password, you can read mor
   
 ### Step 3:  
 Storm is a Linux system (a type of operating system) which is considerably different from Windows, and similar to Mac. In order to be more productive in this class, you need to learn some basics about how to get things done in the Linux system. The following two tutorials will help you get started:
-* Unix Commands Tutorial One (NEED LINK)
-* Unix Commands Tutorial Two (NEED LINK)
+* [Unix Commands Tutorial One](unixTutorialOne.md)
+* [Unix Commands Tutorial Two](unixTutorialTwo.md)
