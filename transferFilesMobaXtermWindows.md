@@ -10,7 +10,7 @@ parent: Windows tutorials
 ### Step 1:  
 Make sure you are connected to the internet, then launch the MobaXterm application and log on to the remote machine. If you are unsure about anything mentioned in this step, please reference the previous tutorials, [How to: Install MobaXterm](installMobaXtermWindows.md) and/or [How to: Remote Login using MobaXterm](remoteLoginMobaXtermWindows.md)  
   
-The following screenshot shows my username “cking74” currently logged on to the storm servers. You should see something similar before continuing on to the next step.   
+The following screenshot shows the username “cking74” currently logged on to the storm servers. You should see something similar before continuing on to the next step.   
   
 <img src="/docs/assets/CISWork17.png" alt="Logged in screen" width="600">  
   
@@ -20,7 +20,7 @@ Using MobaXterm, you can easily view and access the remote machine using the win
   
 <img src="/docs/assets/CISWork18.png" alt="Navigate the remote machine" width="600">  
   
-In the above example, I have just logged into the remote machine, so the folder I am currently accessing is **/home/students/cking74** which contains the directories **private, public_html, demo, example** as circled, other files and a **green arrow button** which I can use to go back a directory.  
+In the above example, we have just logged into the remote machine, so the folder we are currently accessing is **/home/students/cking74** which contains the directories **private, public_html, demo, example** as circled, other files and a **green arrow button** which we can use to go back a directory.  
   
 You can also navigate the machine via the command-line in the window to the right and see the changes reflected in the folder to the left if you check the **Follow terminal folder** box.   
   
