@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Transfer files using MobaXterm (Windows)
+title: Transfer files on Windows
 nav_order: 1
 parent: Exporting Files
 ---
