@@ -32,7 +32,7 @@ First, **locate the folder on your (local) computer** where you plan to upload/t
   
 <img src="/docs/assets/CISWork36.png" alt="Locate folder" width="600">  
   
-And here is how we could find it using the command-line, we first enter **pwd** to show that we are currently in the home folder. Next, we use `<cd Documents/demo/txt_files>` to change to the “txt_files” folder, and then **pwd** again to show the updated location. Lastly, we type **ls** to show the contents of the directory that we are currently accessing, which is only the file “info.txt”.  
+And here is how we could find it using the command-line, we first enter **pwd** to show that we are currently in the home folder. Next, we use `cd Documents/demo/txt_files` to change to the “txt_files” folder, and then **pwd** again to show the updated location. Lastly, we type **ls** to show the contents of the directory that we are currently accessing, which is only the file “info.txt”.  
   
 <img src="/docs/assets/CISWork37.png" alt="Locate using the command-line">  
   
