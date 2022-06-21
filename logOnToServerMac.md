@@ -3,6 +3,7 @@ layout: default
 title: Remote login from MAC
 nav_order: 1
 parent: Mac tutorials
+grand_parent: Getting Started
 ---
 
 # How to: remote login from MAC  
