@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Transfer files using scp
+title: Transfer files on Mac
 nav_order: 2
-parent: Mac tutorials
+parent: Exporting Files
 
 ---
 
