@@ -11,7 +11,7 @@ nav_order: 8
 ### Step 1:  
 As a prerequisite, you have been given the assignment details by your instructor as discussed in class, which you have completed accordingly. Before continuing to submit your program to Autograder, you should double check that your program has the required files and structure and does not produce any compilation errors.  **The Autograder system must be able to compile your program** in order to run its tests, so it’s recommended that you test this out yourself before submitting.  **Your submission may be rejected if it does not compile or your final grade may be significantly lowered.**  
   
-The following screenshot is a quick example of me testing on my own computer that the required _IntArray.cpp_ file I plan to upload compiles before submitting. The terminal does not display any errors and an executable is produced, so I know that it’s good to go.  
+The following screenshot is a quick example of testing on a computer that the required _IntArray.cpp_ file we plan to upload compiles before submitting. The terminal does not display any errors and an executable is produced, so we know that it’s good to go.  
   
 <img src="/docs/assets/CISWork59.png" alt="Check compilation" width="600">
   
@@ -35,7 +35,7 @@ On your **dashboard**, you will see the courses which you are enrolled in for th
   
   
 ### Step 5:  
-**To open a course** from your dashboard, simply click on the labeled box where you will be taken to the course page.  (Here I’ve clicked on CISC2200 Data Structures from the previous page.)  From this page, you can see the assignments currently made available to you if any.  In the following screenshot, we see that I currently have two labs to complete for the course.  
+**To open a course** from your dashboard, simply click on the labeled box where you will be taken to the course page.  (Here we’ve clicked on CISC2200 Data Structures from the previous page.)  From this page, you can see the assignments currently made available to you if any.  In the following screenshot, we see that we currently have two labs to complete for the course.  
   
 <img src="/docs/assets/CISWork63.png" alt="Course page" width="600">
   
@@ -46,7 +46,7 @@ Next, **open an assignment** by clicking on it. You will be taken to a page cont
   
 <img src="/docs/assets/CISWork64.png" alt="Assignment information" width="600">
   
-Additional submissions may be given to you by your instructor in the form of “Bonus Submission” or “Late Day” tokens. A Late Day token extends the submission deadline by 24 hours and a Bonus Submission token allows for an extra submission beyond the limit. In the above screenshot, you can also see that I have 3 Late Day tokens available for the course.  
+Additional submissions may be given to you by your instructor in the form of “Bonus Submission” or “Late Day” tokens. A Late Day token extends the submission deadline by 24 hours and a Bonus Submission token allows for an extra submission beyond the limit. In the above screenshot, you can also see that we have 3 Late Day tokens available for the course.  
   
 **Note:** Most likely your professor provides you a URL to this project’s submission page (an example is shown below). In this case, you skip 2-6 by  simply typing in the URL to the browser or clicking on the link provided. You will be prompted to sign in if you haven’t done so already.  
   
@@ -74,7 +74,7 @@ After confirming the submission, a new page will be displayed indicating that yo
   
 <img src="/docs/assets/CISWork67.png" alt="Assignment submitted" width="600">
   
-After the system has finished running the tests on your program, you will be able to see the details of your submission along with the results.  The following shows the results of a different assignment on sorting which I submitted earlier.  You can see the score and that the submission passed compilation, along with getting full points for the “Bubble Sort” and “Selection Sort” tests.  These blue bars are clickable and you can find more information about each test on your submission by doing so.  
+After the system has finished running the tests on your program, you will be able to see the details of your submission along with the results.  The following shows the results of a different assignment on sorting which was submitted earlier.  You can see the score and that the submission passed compilation, along with getting full points for the “Bubble Sort” and “Selection Sort” tests.  These blue bars are clickable and you can find more information about each test on your submission by doing so.  
   
 <img src="/docs/assets/CISWork68.png" alt="Test cases" width="600">
   
