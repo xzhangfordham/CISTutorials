@@ -96,12 +96,12 @@ i.e., the cs1 subdirectory located under the home directory of user ffeng.
    
 ### Exercise 1b  
 Use the commands **ls**, **pwd** and **cd** to explore the file system.  
-(Remember, if you get lost, type **cd** by itself to return to your home-directory)  
+(Remember, if you get lost, type `cd` by itself to return to your home-directory)  
   
   
 ## 1.6 More about home directories and pathnames
 ### Understanding pathnames  
-First type **cd** to get back to your home-directory, then type  
+First type `cd` to get back to your home-directory, then type  
 
     % ls cs1  
   
