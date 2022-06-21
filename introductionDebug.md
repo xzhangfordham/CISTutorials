@@ -28,48 +28,48 @@ Please watch the insturctor demo the usage of debugger gdb, and then carry out t
 2. Trace the execution of the given sample program  
     Run the following command to load the program using gdb  
     
-        gdb fib.out
-        GNU gdb (GDB) Fedora 7.9.1-19.fc22
-        Copyright (C) 2015 Free Software Foundation, Inc.
-        License GPLv3+: GNU GPL version 3 or later
-        This is free software: you are free to change and redistribute it.
-        There is NO WARRANTY, to the extent permitted by law. Type "show copying"
-        and "show warranty" for details.
-        This GDB was configured as "x86_64-redhat-linux-gnu".
-        Type "show configuration" for configuration details.
-        For bug reporting instructions, please see:
-        .
-        Find the GDB manual and other documentation resources online at:
-        .
-        For help, type "help".
-        Type "apropos word" to search for commands related to "word"...
-        Reading symbols from fib...done.
-        (gdb) break fib.cpp:32
-        Breakpoint 1 at 0x401250: file fib.cpp, line 32.
-        (gdb) run
-        Starting program: /home/staff/zhang/TEST/fib.out
-        Missing separate debuginfos, use: dnf debuginfo-install glibc-2.32-4.fc33.x86_64
-        Fibonacci sequence calculator:
-        Enter a non-negative number:3
-        Breakpoint 1, main () at fib.cpp:32
-        32 cout <=0);
-        (gdb) step
-        14 if (i==0)
-        (gdb) step
-        16 else if (i==1)
-        (gdb) cont
-        Continuing.
-        Breakpoint 2, fib (i=2) at fib.cpp:12
-        12 assert (i>=0);
-        (gdb) cont
-        Continuing.
-        Breakpoint 2, fib (i=1) at fib.cpp:12
-        12 assert (i>=0);
-        (gdb) where
-        #0 fib (i=1) at fib.cpp:12
-        #1 0x0000000000400908 in fib (i=2) at fib.cpp:19
-        #2 0x0000000000400908 in fib (i=3) at fib.cpp:19
-        #3 0x000000000040098a in main () at fib.cpp:32
+    `gdb fib.out`  
+    GNU gdb (GDB) Fedora 7.9.1-19.fc22  
+    Copyright (C) 2015 Free Software Foundation, Inc.  
+    License GPLv3+: GNU GPL version 3 or later  
+    This is free software: you are free to change and redistribute it.  
+    There is NO WARRANTY, to the extent permitted by law. Type "show copying"  
+    and "show warranty" for details.  
+    This GDB was configured as "x86_64-redhat-linux-gnu".  
+    Type "show configuration" for configuration details.  
+    For bug reporting instructions, please see:  
+    .  
+    Find the GDB manual and other documentation resources online at:  
+    .  
+    For help, type "help".  
+    Type "apropos word" to search for commands related to "word"...  
+    Reading symbols from fib...done.  
+    (gdb) `break fib.cpp:32`  
+    Breakpoint 1 at 0x401250: file fib.cpp, line 32.  
+    (gdb) `run`  
+    Starting program: /home/staff/zhang/TEST/fib.out  
+    Missing separate debuginfos, use: dnf debuginfo-install glibc-2.32-4.fc33.x86_64  
+    Fibonacci sequence calculator:  
+    Enter a non-negative number:`3`  
+    Breakpoint 1, main () at fib.cpp:32  
+    32 cout <=0);  
+    (gdb) `step`  
+    14 if (i==0)  
+    (gdb) `step`  
+    16 else if (i==1)  
+    (gdb) `cont`  
+    Continuing.  
+    Breakpoint 2, fib (i=2) at fib.cpp:12  
+    12 assert (i>=0);  
+    (gdb) `cont`  
+    Continuing.  
+    Breakpoint 2, fib (i=1) at fib.cpp:12  
+    12 assert (i>=0);  
+    (gdb) `where`  
+    #0 fib (i=1) at fib.cpp:12  
+    #1 0x0000000000400908 in fib (i=2) at fib.cpp:19  
+    #2 0x0000000000400908 in fib (i=3) at fib.cpp:19  
+    #3 0x000000000040098a in main () at fib.cpp:32  
 3. A list of gdb commands  
     * help: to see a list of categories of commands available;
     * help breakpoints: to see all commands to set breakpoints
