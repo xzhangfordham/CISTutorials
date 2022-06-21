@@ -118,7 +118,7 @@ For more information and usage tips while using vi, you can type the following i
 
     :help
   
-This will display the following document, which can be read and closed by typing :q and pressing **enter**.  
+This will display the following document, which can be read and closed by typing `:q` and pressing **enter**.  
   
 <img src="/docs/assets/CISWork58.png" alt="vi help" width="600">  
   
