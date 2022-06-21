@@ -12,7 +12,7 @@ Emacs is a powerful program which provides many useful tools that can be accesse
 If you wish to use the program on your own computer, you can easily do so after following the installation steps shown here:  
 [Emacs download](https://www.gnu.org/software/emacs/download.html)  
   
-Since emacs is already installed on the storm server, for the following examples I have remained logged on to it as described in the previous tutorials [How to: remote login from MAC](logOnToServerMac.md) or [How To: remote login using MobaXterm (Windows)](remoteLoginMobaXtermWindows.md) and begin at the command-line prompt.  
+Since emacs is already installed on the storm server, for the following examples we have remained logged on to it as described in the previous tutorials [How to: remote login from MAC](logOnToServerMac.md) or [How To: remote login using MobaXterm (Windows)](remoteLoginMobaXtermWindows.md) and begin at the command-line prompt.  
   
   
 ### Step 2:  
@@ -26,15 +26,15 @@ First **locate the file** you wish to open with emacs.
   
 It may be helpful to know the **cd** (change directory), **pwd** (print working directory) and **ls** (list contents) commands for this step or to be familiar with the concept of absolute and relative paths. They are explained in the tutorial [Introduction to Linux](introductionLinux.md).  
   
-Here, I begin in the directory of my account on the remote machine /home/students/cking74 and navigate to a folder I previously created named “text_files” which holds the file I wish to open with emacs, “info.txt”.  
+Here, we begin in the directory of the account on the remote machine /home/students/cking74 and navigate to a folder that was previously created named “text_files” which holds the file we wish to open with emacs, “info.txt”.  
   
 <img src="/docs/assets/CISWork45.png" alt="Navigate to folder">  
   
-Of course if you already know the full location of the file and don’t want to go through the navigation steps, you could just prepend it to the file name.  This means I could reference the file from a different location on the machine as “**/home/students/cking74/demo/text_files/info.txt**” rather than just “**info.txt**”  in the following steps.  
+Of course if you already know the full location of the file and don’t want to go through the navigation steps, you could just prepend it to the file name.  This means we could reference the file from a different location on the machine as “**/home/students/cking74/demo/text_files/info.txt**” rather than just “**info.txt**”  in the following steps.  
   
   
 ### Step 4:  
-You can **open the file** by simply typing **emacs** followed by the file name into the terminal and pressing **enter**.  Here I open the file “info.txt” with the following command:  
+You can **open the file** by simply typing **emacs** followed by the file name into the terminal and pressing **enter**.  Here we open the file “info.txt” with the following command:  
 	
     emacs info.txt
   
@@ -48,7 +48,7 @@ If you only want to view the file, you can simply **close the document** by pres
   
   
 ### Step 5:  
-When you open a file with emacs, you already have the ability to **edit the document** using the keyboard.  Here, I’ve copied some information about emacs from Wikipedia to “info.txt” and have **saved it** by pressing **(ctrl-x) (ctrl-c)**.  After this, the system lets me know that the changes have been written to the document in the bottom left corner of the window as shown below.   
+When you open a file with emacs, you already have the ability to **edit the document** using the keyboard.  Here, some information about emacs has been copied from Wikipedia to “info.txt” and has been **saved** by pressing **(ctrl-x) (ctrl-c)**.  After this, the system lets us know that the changes have been written to the document in the bottom left corner of the window as shown below.   
   
 <img src="/docs/assets/CISWork47.png" alt="Changes have been written to the document" width="600">  
   
@@ -56,7 +56,7 @@ And then the document can simply be **closed** with **(ctrl-x) (ctrl-c)** as pre
   
 <img src="/docs/assets/CISWork48.png" alt="Return to command line" width="600">  
   
-If you write to the document and don’t wish to save change the changes, just close it with **(ctrl-x) (ctrl-c)**.  Emacs may prompt you with a similar message to the one shown below to confirm your choice before discarding the changes.  
+If you write to the document and don’t wish to save the changes, just close it with **(ctrl-x) (ctrl-c)**.  Emacs may prompt you with a similar message to the one shown below to confirm your choice before discarding the changes.  
   
 <img src="/docs/assets/CISWork49.png" alt="Confirm choice">  
   
