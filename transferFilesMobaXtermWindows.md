@@ -2,7 +2,7 @@
 layout: default
 title: Transfer files using MobaXterm
 nav_order: 3
-parent: Windows tutorials
+parent: Exporting Files
 ---
 
 # How to: transfer files to/from remote machine (MobaXterm)
