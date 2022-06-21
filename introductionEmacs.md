@@ -17,7 +17,7 @@ Since emacs is already installed on the storm server, for the following examples
   
   
 ### Step 2:  
-To start, let’s display some basic information about the program by typing **emacs** into the terminal and pressing **enter**.  After reading, this screen can be exited by pressing **(ctrl-x) (ctrl-c)** as shown in the guide.  
+To start, let’s display some basic information about the program by typing `emacs` into the terminal and pressing **enter**.  After reading, this screen can be exited by pressing **(ctrl-x) (ctrl-c)** as shown in the guide.  
   
 <img src="/docs/assets/CISWork44.png" alt="Basic Emacs information" width="600">  
   
@@ -35,7 +35,7 @@ Of course if you already know the full location of the file and don’t want to 
   
   
 ### Step 4:  
-You can **open the file** by simply typing **emacs** followed by the file name into the terminal and pressing **enter**.  Here we open the file “info.txt” with the following command:  
+You can **open the file** by simply typing `emacs` followed by the file name into the terminal and pressing **enter**.  Here we open the file “info.txt” with the following command:  
 	
     emacs info.txt
   
