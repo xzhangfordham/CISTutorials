@@ -50,7 +50,7 @@ To upload a file to the remote machine from your local machine is a very similar
   
 <img src="/docs/assets/CISWork24.png" alt="'Screenshots' folder on local computer" width="600">  
    
-We will upload it to the folder where we are currently located on the remote machine named “text_files” First, we will click the green **upload** button which will bring up a window of my local computer. We will navigate to the “Screenshots” folder through this window, open it and select the screenshot to upload. Then we will click **open**.  
+We will upload it to the folder where we are currently located on the remote machine named “text_files” First, we will click the green **upload** button which will bring up a window of the local computer. We will navigate to the “Screenshots” folder through this window, open it and select the screenshot to upload. Then we will click **open**.  
   
 <img src="/docs/assets/CISWork25.png" alt="Select screenshot from folder to upload" width="600">  
   
