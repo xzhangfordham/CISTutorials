@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Submit Programs to Autograder
-nav_order: 8
+nav_order: 3
+parent: Exporting Files
 ---
 
 # How To: Submit Programs to Autograder
