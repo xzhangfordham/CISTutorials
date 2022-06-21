@@ -11,13 +11,13 @@ nav_order: 7
 vi comes pre-installed on most Mac computers and Linux systems. If you plan to use it on a Windows system, you may need to download it and more information can be found here:  
 [Download vim](https://www.vim.org/download.php)  
   
-Since vi is already installed on the storm server, for this example tutorial I have remained logged on as described in the previous tutorials [How to: remote login from MAC](logOnToServerMac.md) or [How To: remote login using MobaXterm (Windows)](remoteLoginMobaXtermWindows.md) with my username “cking74”.  
+Since vi is already installed on the storm server, for this example tutorial we have remained logged on as described in the previous tutorials [How to: remote login from MAC](logOnToServerMac.md) or [How To: remote login using MobaXterm (Windows)](remoteLoginMobaXtermWindows.md) with the username “cking74”.  
   
 It may also be helpful to know the **cd** (change directory), **pwd** (print working directory) and **ls** (list contents) commands for this tutorial or to be familiar with the concept of absolute and relative paths. They are covered in the tutorial [Introduction to Linux](introductionLinux.md).  
   
   
 ### Step 1:  
-To **create a file** using vi, you can simply type ”vi” followed by the location and name of the file that you wish to create into the terminal window and press **enter**.  Here is the command I use to create a file named “hello.cpp” at the location “/home/students/cking74/demo/cpp_files” of the remote machine:  
+To **create a file** using vi, you can simply type ”vi” followed by the location and name of the file that you wish to create into the terminal window and press **enter**.  Here is the command we use to create a file named “hello.cpp” at the location “/home/students/cking74/demo/cpp_files” of the remote machine:  
 
     vi /home/students/cking74/demo/cpp_files/hello.cpp 
   
@@ -33,7 +33,7 @@ It is also worth noting that if any of the directories mentioned in the location
   
 The insert mode temporarily disables the command mode and allows you to type your changes into the document using the full keyboard.  To enable, press i.  Note that pressing enter is not required to enable the mode and will result in a blank line being added to the document.  While the insert mode is active  –INSERT— will be displayed at the bottom of the terminal.  
   
-The example below shows me adding some text to the file created in the previous step using the insert mode.  
+The example below shows some text being added to the file created in the previous step using the insert mode.  
   
 <img src="/docs/assets/CISWork51.png" alt="Insert mode" width="600"> 
   
@@ -56,7 +56,7 @@ To save a file, press esc, type the following command, then press enter:
 
     :w	
   
-In the example shown below, I save the text inserted into “hello.cpp” in the previous step.  You can see the word “written” in the bottom left corner, indicating that it has been saved at the location shown.  
+In the example shown below, we save the text inserted into “hello.cpp” in the previous step.  You can see the word “written” in the bottom left corner, indicating that it has been saved at the location shown.  
   
 <img src="/docs/assets/CISWork53.png" alt="File saved" width="600"> 
   
@@ -81,7 +81,7 @@ You can also combine the save and close commands into a single step with:
   
   
 ### Step 5:  
-To **open an already existing file**, simply type vi followed by the location and name of the file and press **enter**.  Here is the command I will run to open the file “info.txt” which already exists at the specified location:  
+To **open an already existing file**, simply type vi followed by the location and name of the file and press **enter**.  Here is the command we will run to open the file “info.txt” which already exists at the specified location:  
 
     vi /home/students/cking74/demo/text_files/info.txt
   
@@ -91,11 +91,11 @@ The contents of the file will now be displayed in the terminal window and can be
   
 When attempting to open a file with vi, be sure to double check that the name of the file and path are correct.  As shown in step 1, vi will attempt to create new files and directories for ones that don’t already exist if requested, which may be confusing at first.  
 
-In the example below, I intended to open the same file “info.txt” with the following command:  
+In the example below, it was intended to open the same file “info.txt” with the following command:  
 
     vi /home/students/cking74/dimo/text_files/info.txt
 
-but as you can see, I accidentally misspelled “demo.”  vi attempted to create a new folder named ‘dimo’ when I hit **enter** (shown below).  Since I realized the mistake, I just closed the file without saving it (as discussed in step 4).  
+but as you can see, “demo” was accidentally misspelled.  vi attempted to create a new folder named ‘dimo’ when **enter** was hit (shown below).  Since we realized the mistake, we can just closed the file without saving it (as discussed in step 4).  
   
 <img src="/docs/assets/CISWork57.png" alt="Accidental file" width="600">  
   
