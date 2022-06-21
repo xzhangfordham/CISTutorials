@@ -26,13 +26,13 @@ You can also navigate the machine via the command-line in the window to the righ
   
 <img src="/docs/assets/CISWork19.png" alt="Follow terminal folder" width="600">  
   
-The following example shows me navigating to **/demo/text_files** via the command-line using the **pwd**, **cd** and **ls** commands, with the window on the left adjusting itself accordingly. (Don’t worry if you are not yet familiar with these commands, they are covered further in the **Introduction to Linux** tutorial.)   
+The following example shows how to navigate to **/demo/text_files** via the command-line using the **pwd**, **cd** and **ls** commands, with the window on the left adjusting itself accordingly. (Don’t worry if you are not yet familiar with these commands, they are covered further in the [Introduction to Linux](introductionLinux.md) tutorial.)   
   
 <img src="/docs/assets/CISWork20.png" alt="Navigate to /demo/text_files" width="600">  
    
   
 ### Step 3:  
-To download a file on to your local machine, first locate and select the file on the remote machine that you wish to download using one of the methods explained in the above step. In this example I will be downloading the folder “data” from the location in the remote machine which I navigated to in the previous step. (To download a file or folder is the same process.)   
+To download a file on to your local machine, first locate and select the file on the remote machine that you wish to download using one of the methods explained in the above step. In this example we will be downloading the folder “data” from the location in the remote machine which we navigated to in the previous step. (To download a file or folder is the same process.)   
   
 <img src="/docs/assets/CISWork21.png" alt="Download the folder “data” from the remote machine" width="600">    
   
@@ -46,11 +46,11 @@ Then you should see the files appear on your local computer. We can now see the 
   
   
 ### Step 4:  
-To upload a file to the remote machine from your local machine is a very similar process.  In this example, I will be uploading an image from the folder “Screenshots” from my local computer to the remote machine.  
+To upload a file to the remote machine from your local machine is a very similar process.  In this example, we will be uploading an image from the folder “Screenshots” from a local computer to the remote machine.  
   
 <img src="/docs/assets/CISWork24.png" alt="'Screenshots' folder on local computer" width="600">  
    
-I will upload it to the folder where I am currently located on the remote machine named “text_files” First, I will click the green **upload** button which will bring up a window of my local computer. I will navigate to the “Screenshots” folder through this window, open it and select the screenshot to upload. Then I will click **open**.  
+We will upload it to the folder where we are currently located on the remote machine named “text_files” First, we will click the green **upload** button which will bring up a window of my local computer. We will navigate to the “Screenshots” folder through this window, open it and select the screenshot to upload. Then we will click **open**.  
   
 <img src="/docs/assets/CISWork25.png" alt="Select screenshot from folder to upload" width="600">  
   
@@ -60,7 +60,7 @@ After this, you can now see the image, “Screenshot (1) has been transferred to
   
   
 ### Step 5:  
-Documents can also be exchanged between the local and remote machines by simply clicking-and-dragging.  In the following screenshot, you can see the results of me clicking and dragging the file “info.txt” from the remote machine into the Documents folder of my local computer.  Similarly, files can be dragged from the local machine into the remote machine.  
+Documents can also be exchanged between the local and remote machines by simply clicking-and-dragging.  In the following screenshot, you can see the results of clicking and dragging the file “info.txt” from the remote machine into the Documents folder of a local computer.  Similarly, files can be dragged from the local machine into the remote machine.  
   
 <img src="/docs/assets/CISWork27.png" alt="Document clicked and dragged to local computer" width="600">  
   
