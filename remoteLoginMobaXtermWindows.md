@@ -3,6 +3,7 @@ layout: default
 title: Remote login using MobaXterm 
 nav_order: 2
 parent: Windows tutorials
+grand_parent: Getting Started
 ---
 
 # How to: Remote login using MobaXterm (Windows)
