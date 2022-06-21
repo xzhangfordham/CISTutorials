@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Introduction to Emacs
-nav_order: 6
+nav_order: 2
+parent: Text Editors
 ---
 
 # Introduction to Emacs
