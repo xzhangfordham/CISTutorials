@@ -82,7 +82,7 @@ You can also combine the save and close commands into a single step with:
   
   
 ### Step 5:  
-To **open an already existing file**, simply type vi followed by the location and name of the file and press **enter**.  Here is the command we will run to open the file “info.txt” which already exists at the specified location:  
+To **open an already existing file**, simply type "vi" followed by the location and name of the file and press **enter**.  Here is the command we will run to open the file “info.txt” which already exists at the specified location:  
 
     vi /home/students/cking74/demo/text_files/info.txt
   
