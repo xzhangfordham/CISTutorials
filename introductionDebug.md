@@ -26,7 +26,7 @@ Please watch the insturctor demo the usage of debugger gdb, and then carry out t
         g++ -g fib.cpp -o fib.out  
         g++ -g samplecode.cpp -o prog
 2. Trace the execution of the given sample program  
-    Run the following command to load the program using gdb  
+    Run the following command to load the program using gdb:  
     
     `gdb fib.out`  
     GNU gdb (GDB) Fedora 7.9.1-19.fc22  
