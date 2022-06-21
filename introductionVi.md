@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Introduction to vi
-nav_order: 7
+nav_order: 1
+parent: Text Editors
 ---
 
 # View/edit a file from the command line using vi
