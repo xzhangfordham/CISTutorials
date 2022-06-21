@@ -9,7 +9,7 @@ parent: Linux tutorials
   
 ## 2.1 Copying Files
 ### cp (copy)  
-**cp file1 file2** is the command which makes a copy of **file1** in the current working directory and calls it **file2**    
+`cp file1 file2` is the command which makes a copy of **file1** in the current working directory and calls it **file2**    
   
 What we are going to do now, is to take a file stored in an open access area of the file system, and use the **cp** command to copy it to your **cs1** directory.  
   
@@ -31,7 +31,7 @@ Create a backup of your **nytimes.txt** file by copying it to a file called **ny
   
 ## 2.2 Moving files
 ### mv (move)  
-**mv file1 file2** moves (or renames) **file1** to **file2** 
+`mv file1 file2` moves (or renames) **file1** to **file2** 
   
 To move a file from one place to another, use the **mv** command. This has the effect of moving rather than copying the file, so you end up with only one file rather than two.  
   
@@ -43,7 +43,7 @@ First, change directories to your **cs1** directory (can you remember how?). The
 
     % mv nytimes.bak backups 
   
-Type **ls** and **ls backups** to see if it has worked.  
+Type `ls` and `ls backups` to see if it has worked.  
   
   
 ## 2.3 Removing files and directories
