@@ -16,7 +16,7 @@ This is a prompt message made up of your account id and the server’s name.  (N
   
   
 ### Step 2:  
-(Only do this if this is your first time login to the server).  Type command **passwd** at the prompt and press **enter**. You will be asked to enter your current password, and then enter your new password twice (Note that the password you type in is not displayed on the terminal for security reasons).  
+(Only do this if this is your first time login to the server).  Type command `passwd` at the prompt and press **enter**. You will be asked to enter your current password, and then enter your new password twice (Note that the password you type in is not displayed on the terminal for security reasons).  
   
 The following screenshot shows the process described above when changing a previous password from “mypass” to a new more appropriate password.  
   
