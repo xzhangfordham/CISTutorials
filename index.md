@@ -8,7 +8,7 @@ nav_order: 1
   
 CIS Department at Fordham University
 
-### Steps to Begin  
+## Steps to Begin  
 In CISC1600 and CISC2000 classes, you are provided accounts on the CIS Dept’s servers (storm for RH sections, erdos for LC sections). Both servers run Linux and provide a common programming environment for all students.   
   
 **To finish a programming assignment on storm/erdos, you typically need to go through the following steps:**  
