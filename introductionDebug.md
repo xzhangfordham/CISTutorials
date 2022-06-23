@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Intro to Debug
-nav_order: 9
+title: Introduction to Debug
+nav_order: 6
 ---
 
 # CISC2000: Computer Science II Intro to Debug
