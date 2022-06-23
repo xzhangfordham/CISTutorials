@@ -83,4 +83,8 @@ Note that the score you see may or may not be your final grade as there may be s
   
 <img src="/docs/assets/CISWork69.png" alt="My Submission tab" width="600">
   
+  
+### Step 10:  
+After the assignment is graded by your instructor or class TA, you can see the handgrading score, by clicking on the tab next to the **My Submissions** tab.  
+  
 **Congratulations!** You now know how to submit a program to Autograder.   
