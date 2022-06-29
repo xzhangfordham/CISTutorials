@@ -17,7 +17,7 @@ First, **cd** to your **cs1** directory.
 
     % cd ~/cs1  
   
-Then at the UNIX prompt, type,  
+Then at the UNIX prompt, type:  
 
     % cp ~zhang/public_html/cs1600/nytimes.txt .
   
@@ -39,7 +39,7 @@ It can also be used to rename a file, by "moving" the file to the same directory
   
 We are now going to move the file **nytimes.bak** to your backup directory.  
   
-First, change directories to your **cs1** directory (can you remember how?). Then, inside the cs1 directory, type
+First, change directories to your **cs1** directory (can you remember how?). Then, inside the cs1 directory, type:
 
     % mv nytimes.bak backups 
   
@@ -50,7 +50,7 @@ Type `ls` and `ls backups` to see if it has worked.
 ### rm (remove), rmdir (remove directory)  
 To delete (remove) a file, use the **rm** command. As an example, we are going to create a copy of the nytimes.txt file then delete it.  
   
-Inside your cs1 directory, type  
+Inside your cs1 directory, type:  
 
     % cp nytimes.txt tempfile.txt  
     % ls //(to check if it has created the file)  
@@ -67,21 +67,21 @@ Create a directory called **tempstuff** using **mkdir** , then remove it using t
 ### clear (clear screen)  
 Before you start the next section, you may like to clear the terminal window of the previous commands so the output of the following commands can be clearly understood.  
   
-At the prompt, type  
+At the prompt, type:  
 
     % clear  
   
 This will clear all text and leave you with the % prompt at the top of the window.  
   
 ### cat (concatenate)  
-The command **cat** can be used to display the contents of a file on the screen. Type  
+The command **cat** can be used to display the contents of a file on the screen. Type:  
 
     % cat nytimes.txt 
   
 As you can see, the file is longer than than the size of the window, so it scrolls past making it unreadable.  
   
 ### less    
-The command **less** writes the contents of a file onto the screen a page at a time. Type  
+The command **less** writes the contents of a file onto the screen a page at a time. Type:  
 
     % less nytimes.txt  
   
@@ -90,11 +90,11 @@ Press the space-bar if you want to see another page, type **q** if you want to q
 ### head
 The **head** command writes the first ten lines of a file to the screen.  
   
-First clear the screen then type  
+First clear the screen then type:  
 
     % head nytimes.txt  
   
-Then type  
+Then type:  
 
     % head -5 nytimes.txt  
 
@@ -103,7 +103,7 @@ What difference did the -5 do to the head command?
 ### tail  
 The **tail** command writes the last ten lines of a file to the screen.  
   
-Clear the screen and type  
+Clear the screen and type:  
 
     % tail nytimes.txt  
   
@@ -112,7 +112,7 @@ How can you view the last 15 lines of the file?
   
 ## Step 5: Searching the contents of a file
 ### Simple searching using less  
-Using **less**, you can search though a text file for a keyword (pattern). For example, to search through **nytimes.txt** for the word **nytimes**, type  
+Using **less**, you can search though a text file for a keyword (pattern). For example, to search through **nytimes.txt** for the word **nytimes**, type:  
 
     % less nytimes.txt  
   
@@ -122,7 +122,7 @@ then, still in less (i.e. don't press q to quit), type a slash followed by the w
 As you can see, **less** finds and highlights the keyword. Type **n** to search for the next occurrence of the word.  
   
 ### grep (don't ask why it is called grep)  
-**grep** is one of many standard UNIX utilities. It searches files for specified words or patterns. First clear the screen, then type  
+**grep** is one of many standard UNIX utilities. It searches files for specified words or patterns. First clear the screen, then type:  
 
     % grep bail nytimes.txt  
   
@@ -130,17 +130,17 @@ As you can see, grep has printed out each line containg the word bail.
   
 Or has it????  
   
-Try typing  
+Try typing:  
 
     % grep Bail nytimes.txt  
   
 The grep command is "case sensitive"; it distinguishes between Bail and bail.  
   
-To ignore upper/lower case distinctions, use the -i option, i.e. type  
+To ignore upper/lower case distinctions, use the -i option, i.e. type:  
 
     % grep -i bail nytimes.txt  
   
-To search for a phrase or pattern, you must enclose it in single quotes (the apostrophe symbol). For example to search for spinning top, type  
+To search for a phrase or pattern, you must enclose it in single quotes (the apostrophe symbol). For example to search for spinning top, type:  
 
     % grep -i 'file sharing' nytimes.txt  
   
@@ -149,16 +149,16 @@ Some of the other options of grep are:
 * n precede each maching line with the line number  
 * c print only the total count of matched lines  
   
-Try some of them and see the different results. Don't forget, you can use more than one option at a time, for example, the number of lines without the words police or Police is  
+Try some of them and see the different results. Don't forget, you can use more than one option at a time, for example, the number of lines without the words police or Police is:  
 
     % grep -ivc police nytimes.txt  
   
 ### wc (word count)  
-A handy little utility is the **wc** command, short for word count. To do a word count on **nytimes.txt**, type  
+A handy little utility is the **wc** command, short for word count. To do a word count on **nytimes.txt**, type:  
 
     % wc -w nytimes.txt  
   
-To find out how many lines the file has, type  
+To find out how many lines the file has, type:  
 
     % wc -l nytimes.txt  
   
