@@ -7,7 +7,7 @@ parent: Linux tutorials
 
 # Unix Tutorial Two
   
-## 2.1 Copying Files
+## Step 1: Copying Files
 ### cp (copy)  
 `cp file1 file2` is the command which makes a copy of **file1** in the current working directory and calls it **file2**    
   
@@ -25,11 +25,11 @@ Then at the UNIX prompt, type,
   
 The above command means copy the file **nytimes.txt** to the current directory, keeping the name the same.  
   
-### Exercise 2a  
+### Exercise:  
 Create a backup of your **nytimes.txt** file by copying it to a file called **nytimes.bak**  
   
   
-## 2.2 Moving files
+## Step 2: Moving files
 ### mv (move)  
 `mv file1 file2` moves (or renames) **file1** to **file2** 
   
@@ -46,7 +46,7 @@ First, change directories to your **cs1** directory (can you remember how?). The
 Type `ls` and `ls backups` to see if it has worked.  
   
   
-## 2.3 Removing files and directories
+## Step 3: Removing files and directories
 ### rm (remove), rmdir (remove directory)  
 To delete (remove) a file, use the **rm** command. As an example, we are going to create a copy of the nytimes.txt file then delete it.  
   
@@ -59,11 +59,11 @@ Inside your cs1 directory, type
   
 You can use the **rmdir** command to remove a directory (make sure it is empty first). Try to remove the backups directory. You will not be able to since UNIX will not let you remove a non-empty directory.  
   
-### Exercise 2b  
+### Exercise:  
 Create a directory called **tempstuff** using **mkdir** , then remove it using the **rmdir** command.  
   
   
-## 2.4 Displaying the contents of a file on the screen
+## Step 4: Displaying the contents of a file on the screen
 ### clear (clear screen)  
 Before you start the next section, you may like to clear the terminal window of the previous commands so the output of the following commands can be clearly understood.  
   
@@ -110,7 +110,7 @@ Clear the screen and type
 How can you view the last 15 lines of the file?  
   
   
-## 2.5 Searching the contents of a file
+## Step 5: Searching the contents of a file
 ### Simple searching using less  
 Using **less**, you can search though a text file for a keyword (pattern). For example, to search through **nytimes.txt** for the word **nytimes**, type  
 
