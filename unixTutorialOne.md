@@ -7,7 +7,7 @@ parent: Linux tutorials
 
 # Unix Tutorial One
   
-## 1.1 Listing files and directories
+## Step 1: Listing files and directories
 ### ls (list)  
 When you first login, your current working directory is your home directory. Your home directory has the same name as your user-name, for example, **ee91ab**, and it is where your personal files and subdirectories are saved.  
   
@@ -28,7 +28,7 @@ To list all files in your home directory including those whose names begin with 
 **ls** is an example of a command which can take options: **-a** is an example of an option. The options change the behaviour of the command. There are online manual pages that tell you which options a particular command can take, and how each option modifies the behaviour of the command. (See later in this tutorial)  
   
   
-## 1.2 Making Directories
+## Step 2: Making Directories
 ### mkdir (make directory)  
 We will now make a subdirectory in your home directory to hold the files you will be creating and using in the course of this tutorial. To make a subdirectory called cs1 in your current working directory type 
 
@@ -39,7 +39,7 @@ To see the directory you have just created, type
     % ls  
   
   
-## 1.3 Changing to a different directory
+## Step 3: Changing to a different directory
 ### cd (change directory)  
 The command **cd _directory_** means "change the current working directory to 'directory'. The current working directory may be thought of as the directory you are in, i.e. your current position in the file-system tree.  
   
@@ -49,11 +49,11 @@ To change to the directory you have just made, type
   
 Type **ls** to see the contents (which should be empty).  
   
-### Exercise 1a  
+### Exercise:   
 Make another directory inside the **cs1** directory called **backups**  
   
   
-## 1.4 The directories . and ..  
+## Step 4: The directories . and ..  
 Still in the **cs1** directory, type 
 
     % ls -a  
@@ -75,7 +75,7 @@ will take you one directory up the hierarchy (back to your home directory). Try 
 Note: typing **cd** with no argument always returns you to your home directory. This is very useful if you are lost in the file system.  
   
   
-## 1.5 Pathnames
+## Step 5: Pathnames
 ### pwd (print working directory)  
 Pathnames enable you to work out where you are in relation to the whole file-system. For example, to find out the absolute pathname of your home-directory, type cd to get back to your home-directory and then type  
 
@@ -94,12 +94,12 @@ can be shortened to:
   
 i.e., the cs1 subdirectory located under the home directory of user ffeng.
    
-### Exercise 1b  
+### Exercise:    
 Use the commands **ls**, **pwd** and **cd** to explore the file system.  
 (Remember, if you get lost, type `cd` by itself to return to your home-directory)  
   
   
-## 1.6 More about home directories and pathnames
+## Step 6: More about home directories and pathnames
 ### Understanding pathnames  
 First type `cd` to get back to your home-directory, then type  
 
