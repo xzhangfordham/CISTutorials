@@ -29,7 +29,7 @@ It is also worth noting that if any of the directories mentioned in the location
   
   
 ### Step 2:  
-**Files can be edited** using the **insert** and **visual** modes.  (vi automatically opens in the **command** mode which is discussed further in step 6)  
+**Files can be edited** using the **insert** and **visual** modes.  (vi automatically opens in the **command** mode which is discussed further in step 6.)  
   
 The insert mode temporarily disables the command mode and allows you to type your changes into the document using the full keyboard.  To enable, press i.  Note that pressing enter is not required to enable the mode and will result in a blank line being added to the document.  While the insert mode is active  --INSERT-- will be displayed at the bottom of the terminal.  
   
