@@ -9,8 +9,7 @@ parent: Text Editors
 **vi** is a text editor which can be used directly in the terminal window using the command-line.  This tutorial will cover the basics of the program, including how to create, open, edit and save documents.  
   
 ### Step 0:  
-vi comes pre-installed on most Mac computers and Linux systems. If you plan to use it on a Windows system, you may need to download it and more information can be found here:  
-[Download vim](https://www.vim.org/download.php)  
+vi comes pre-installed on most Mac computers and Linux systems. If you plan to use it on a Windows system, you may need to download it and more information can be found here: [Download vim](https://www.vim.org/download.php)  
   
 Since vi is already installed on the storm server, for this example tutorial we have remained logged on as described in the previous tutorials [How to: remote login from MAC](logOnToServerMac.md) or [How To: remote login using MobaXterm (Windows)](remoteLoginMobaXtermWindows.md) with the username “cking74”.  
   
@@ -32,13 +31,13 @@ It is also worth noting that if any of the directories mentioned in the location
 ### Step 2:  
 **Files can be edited** using the **insert** and **visual** modes.  (vi automatically opens in the **command** mode which is discussed further in step 6)  
   
-The insert mode temporarily disables the command mode and allows you to type your changes into the document using the full keyboard.  To enable, press i.  Note that pressing enter is not required to enable the mode and will result in a blank line being added to the document.  While the insert mode is active  –INSERT— will be displayed at the bottom of the terminal.  
+The insert mode temporarily disables the command mode and allows you to type your changes into the document using the full keyboard.  To enable, press i.  Note that pressing enter is not required to enable the mode and will result in a blank line being added to the document.  While the insert mode is active  --INSERT-- will be displayed at the bottom of the terminal.  
   
 The example below shows some text being added to the file created in the previous step using the insert mode.  
   
 <img src="/docs/assets/CISWork51.png" alt="Insert mode" width="600"> 
   
-The visual mode allows you to select, cut, copy and paste.  It is enabled by pressing v.  While active, –VISUAL—will be displayed at the bottom of the terminal and the following commands can be typed directly into the terminal:  
+The visual mode allows you to select, cut, copy and paste.  It is enabled by pressing v.  While active, --VISUAL-- will be displayed at the bottom of the terminal and the following commands can be typed directly into the terminal:  
   
 * **v** : 	(enable/select)
 * **y** : 	(copy selected text)
@@ -122,7 +121,6 @@ This will display the following document, which can be read and closed by typing
   
 <img src="/docs/assets/CISWork58.png" alt="vi help" width="600">  
   
-More information about vi can also be found here:  
-[vi Editor Tutorial](https://www.tutorialspoint.com/unix/unix-vi-editor.htm)  
+More information about vi can also be found here: [vi Editor Tutorial](https://www.tutorialspoint.com/unix/unix-vi-editor.htm)  
   
 **Congratulations!** You now know the basics of vi and how to create, view and edit documents using it! 
