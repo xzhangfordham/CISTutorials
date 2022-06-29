@@ -3,7 +3,7 @@ layout: default
 title: Install MobaXterm
 nav_order: 1
 parent: Windows tutorials
-grand_parent: Getting Started
+grand_parent: Logging In
 ---
 
 # How to: Install MobaXterm (Windows)
