@@ -26,7 +26,7 @@ Then on the following page (shown below), click on the green button displaying t
   
   
 ### Step 3:  
-A zip file named “**MobaXterm_Installer_v21.3**” has been downloaded to your computer. (This name may be slightly different depending on the specified version you downloaded in the previous step).  
+A zip file named “**MobaXterm_Installer_v21.3**” has been downloaded to your computer. (This name may be slightly different depending on the specified version you downloaded in the previous step.)  
   
 <img src="/docs/assets/CISWork3.png" alt="Zip file" width="600">  
   
@@ -55,7 +55,7 @@ First, you will be given the User agreement. Check the box to accept and click *
    
    
 ### Step 5: Now you can run MobaXterm  
-Congratulations, you have successfully downloaded and installed MobaXterm.  A clickable icon to open MobaXterm should have appeared on your computer.  _We can create a shortcut for this application in your desktop for this application, by_ **right-clicking** on the icon, click "**Send to**” and then select “**Desktop (create shortcut)**"   
+Congratulations, you have successfully downloaded and installed MobaXterm.  A clickable icon to open MobaXterm should have appeared on your computer.  _We can create a shortcut for this application in your desktop for this application, by_ **right-clicking** on the icon, click "**Send to**” and then select “**Desktop (create shortcut)**".   
   
 <img src="/docs/assets/CISWork9.png" alt="Create a shortcut" width="600">  
    
