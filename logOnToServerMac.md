@@ -45,7 +45,7 @@ Note that if it is your first time logging on, you may be prompted with a simila
     The authenticity of host 'cking74@storm.cis.fordham.edu' cannot be established. DSA key fingerprint is 
     04:48:30:31:b0:f3:5a:9b:01:9d:b3:a7:38:e2:b1:0c. Are you sure you want to continue connecting (yes/no)?
   
-If so, type yes and press **enter**. This is just confirming that you intend to connect to this machine and that a host key will be saved for future verification purposes. Then you will then see something like the following message.  
+If so, type yes and press **enter**. This is just confirming that you intend to connect to this machine and that a host key will be saved for future verification purposes. Then you will then see something like the following message:  
 
     Warning: Permanently added 'cking74@storm.cis.fordham.edu' (DSA) to the list of known hosts.
   
@@ -59,7 +59,7 @@ If it is your first time logging in, it is possible that the system will require
   
   
 ### Step 5:  
-Once you have successfully logged in, you should see something similar to  
+Once you have successfully logged in, you should see something similar to:  
 
     [cking74@storm ~]$ 
   
