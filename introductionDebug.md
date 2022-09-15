@@ -4,7 +4,7 @@ title: Introduction to Debug
 nav_order: 6
 ---
 
-# CISC2000: Computer Science II Intro to Debug
+#  Intro to Debugging with gdb
   
 ### Step 1:  
 **Getting example codes**  
